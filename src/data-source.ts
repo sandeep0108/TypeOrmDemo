@@ -9,9 +9,10 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "tops12345",
     database: "type_orm_demo",
-    synchronize: true,
-    logging: false,
+    synchronize: false,
+    logging: false,    
     entities: [User],
     migrations: [],
     subscribers: [],
+
 })
